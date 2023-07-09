@@ -11,7 +11,7 @@ public class ConnectionManager
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		//Establish connection
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Divya","root","root");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Venkatesh","root","root");
 		
 		return con;
 	}
